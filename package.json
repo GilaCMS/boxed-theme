@@ -1,0 +1,29 @@
+{
+	"name":"Boxed",
+	"version":"1.0.0",
+	"description":"A simple blog tempelate.",
+	"url":"gilacms.com",
+	"parent":"gila-blog",
+	"author":"Vasileios Zoumpourlis",
+	"options":{
+		"color":{
+			"default":"grey"
+		},
+		"header-image":{
+			"type":"media"
+		},
+		"header-position":{
+			"type":"select",
+			"options":{"center":"Center","top":"Top","bottom":"Bottom"}
+		},
+		"footer-text":{
+		},
+		"test":{
+			"type":"list",
+			"fields":{
+				"uno":[],"dos":[]
+			},
+			"default":"[]"
+		}
+	}
+}
